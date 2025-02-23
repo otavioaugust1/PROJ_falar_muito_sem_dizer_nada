@@ -21,7 +21,7 @@ O sistema seleciona aleatoriamente uma frase de cada uma das quatro colunas e as
 - Visualizar o histórico de frases geradas.
 - Editar as colunas de frases disponíveis.
 
-![TABELA](img\TABELA.png)
+![TABELA](img/TABELA.png)
 
 ---
 
