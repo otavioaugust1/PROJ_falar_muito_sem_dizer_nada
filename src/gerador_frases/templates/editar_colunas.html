@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Colunas</title>
+</head>
+<body>
+    <h1>Editar Colunas</h1>
+
+    <h2>Coluna 1</h2>
+    <ul>
+        {% for item in coluna1 %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('adicionar_item', coluna=1) }}"><button>Adicionar Item</button></a>
+
+    <h2>Coluna 2</h2>
+    <ul>
+        {% for item in coluna2 %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('adicionar_item', coluna=2) }}"><button>Adicionar Item</button></a>
+
+    <h2>Coluna 3</h2>
+    <ul>
+        {% for item in coluna3 %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('adicionar_item', coluna=3) }}"><button>Adicionar Item</button></a>
+
+    <h2>Coluna 4</h2>
+    <ul>
+        {% for item in coluna4 %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('adicionar_item', coluna=4) }}"><button>Adicionar Item</button></a>
+
+    <br><br>
+    <a href="{{ url_for('index') }}">Voltar para o Gerador</a>
+</body>
+</html>
